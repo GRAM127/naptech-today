@@ -9,6 +9,83 @@
 - 한 기기에서 데이터 변경 시 타 기기에 즉시 반영됩니다
 - 데이터별 데이터 접근 권한을 다르게 함으로서 개인 데이터를 안전하게 저장합니다.
 
+## 클래스 설명
+#### data
+```kotlin
+// 날짜 정보 저장 클래스
+data class DateData(val date: LocalDate, val tag: List<TagData>)
+
+// 일정 정보 직렬화 용도
+@Serializable data class ScheduleData(val time: SerializableDateTime, val title: String, val text: String, val tag: TagData?, val status: ScheduleStatus = ScheduleStatus.None)
+
+// 과목 정보 직렬화 용도
+@Serializable data class SubjectData(val name: String, val studyTime: SerializableTime, val icon: IconEnum, val color: Int, val log: Map<SerializableDate, List<StudyLog>> = mapOf())
+
+// 일정, 과목 색 저장 클래스
+@Serializable data class TagData(val name: String, val color: Int)
+```
+#### enum
+```kotlin
+// icon 정보 나열
+enum class IconEnum(val resourceId: Int)
+
+// 일정 상태 정보 나열
+enum class ScheduleStatus
+```
+#### func
+```kotlin
+// 프래그먼트 전환 도구 포함한 상속용 클래스
+open class NaptechActivity: AppCompatActivity
+open class NaptectFragment: Fragment
+```
+###### firebase
+```kotlin
+// firebase 로그인 관리 클래스
+class FirebaseLogin
+
+// firebase Database 관리 클래스
+class FirebaseDatabaseMap: MutableMap<String, Any?>
+```
+#### main
+```kotlin
+// 달력 recyclerview adapter
+class CalendarAdapter: RecyclerView.Adapter<CalendarAdapter.CalendarHolder>
+  inner class CalendarHolder: RecyclerView.ViewHolder
+```
+###### schedule
+```kotlin
+// 일정 recyclerview adapter
+class ScheduleAdapter: RecyclerView.Adapter<ScheduleAdapter.ScheduleHolder>
+  inner class ScheduleHolder: RecyclerView.ViewHolder
+
+// 일정 프래그먼트
+class ScheduleFragment : NaptectFragment
+
+// 일정 ViewModel -> 컴포넌트 생명주기에서 data 보호
+class ScheduleViewModel: ViewModel
+```
+###### study
+```kotlin
+// 과목 recyclerview adapter
+class StudyAdapter: RecyclerView.Adapter<ScheduleAdapter.ScheduleHolder>
+  inner class ScheduleHolder: RecyclerView.ViewHolder
+
+// 과목 프래그먼트
+class StudyFragment : NaptectFragment
+
+// 과목 ViewModel -> 컴포넌트 생명주기에서 data 보호
+class StudyViewModel: ViewModel
+```
+#### util
+```kotlin
+// 간단한 도구 모음 -> 동반 객체에 프로퍼티와 메소드 정의
+class NaptechUtil
+
+// 날짜 && 시간 직렬화 저장용 
+@Serializable data class SerializableDate
+@Serializable data class SerializableDateTime
+@Serializable data class SerializableTime
+```
 
 ## MainActivity
 #### 기능 설명
@@ -41,7 +118,6 @@ fun onLogin(isSuccessful: Boolean)                  // 로그인 되었을 시 �
 val firebaseLogin:  FirebaseLogin   // Firebase 로그인 관리를 위한 객체
 
 override fun onCreate(savedInstanceState: Bundle?)  // activity 생명주기 -> view 초기화, firebase 데이터 가져오기
-fun setButton(status: ScheduleStatus)               // 버튼 그림자 설정
 ```
 
 ## ScheduleAddActivity
