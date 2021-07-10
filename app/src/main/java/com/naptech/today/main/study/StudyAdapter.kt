@@ -41,7 +41,7 @@ class StudyAdapter(private val activity: NaptechActivity, private val subjectLis
                 image_study_icon.setImageResource(if (isOver) R.drawable.ic_complete else data.icon.resourceId)
                 image_study_icon.imageTintList = if (isOver) ColorStateList.valueOf(activity.getColor(R.color.lightGreen)) else null
                 text_study_name.text = data.name
-                text_study_time.text = "하루 " + if (data.studyTime.hour != 0) "${data.studyTime.hour}시간 " else "" + if (data.studyTime.minute != 0) "${data.studyTime.minute}분 " else "" + "도전!"
+                text_study_time.text = "하루 " + if (data.studyTime.hour != 0) { "${data.studyTime.hour}시간 " } else { "" } + if (data.studyTime.minute != 0) { "${data.studyTime.minute}분 " } else { "" + "도전!" }
 
                 // TODO("풍선 라이브러리?")
                 progress_study_time.max = if (isOver) data.studyTime.localTime.toSecondOfDay() / 60 else data.studyTime.localTime.toSecondOfDay() / 60

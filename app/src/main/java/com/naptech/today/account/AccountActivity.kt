@@ -52,6 +52,8 @@ class AccountActivity : NaptechActivity() {
 
         Glide.with(this).load(firebaseLogin.user?.photoUrl).error(R.drawable.image_person).circleCrop().centerCrop().into(image_account_user)
 
+        text_account_name.text = firebaseLogin.user?.displayName
+
         if (list.isNotEmpty()) {
             val entryList = mutableListOf<BarEntry>()
             for (i in 0..9) {

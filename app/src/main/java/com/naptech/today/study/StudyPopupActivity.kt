@@ -53,14 +53,14 @@ class StudyPopupActivity : NaptechActivity() {
             image_study_icon.setImageResource(subjectData.icon.resourceId)
 //            image_study_icon.imageTintList = ColorStateList.valueOf(subjectData.color)
             text_study_name.text = subjectData.name
-            text_study_time.text = if (subjectData.studyTime.hour != 0) "하루 ${subjectData.studyTime.hour}시간 " else "" + if (subjectData.studyTime.minute != 0) "${subjectData.studyTime.minute}분 " else "" + "도전!"
+            text_study_time.text = if (subjectData.studyTime.hour != 0) { "하루 ${subjectData.studyTime.hour}시간 " } else { "" } + if (subjectData.studyTime.minute != 0) { "${subjectData.studyTime.minute}분 " } else { "" } + "도전!"
         }
 
         progress_study_time.max = if (isOver) subjectData.studyTime.localTime.toSecondOfDay() / 60 else subjectData.studyTime.localTime.toSecondOfDay() / 60
         progress_study_time.progress = studyTime.toSecondOfDay() / 60
 
         val (h, m) = Duration.between(studyTime, subjectData.studyTime.localTime).let { listOf(it.toHours().toInt(), it.toMinutes().toInt() % 60) }
-        text_study_progress.text = "${ if (studyTime.hour != 0) "${studyTime.hour}시간 " else "" }${ if (studyTime.minute != 0) "${studyTime.minute}분" else "" }  /  " + if (subjectData.studyTime.hour != 0) "${subjectData.studyTime.hour}시간 " else "" + if (subjectData.studyTime.minute != 0) "${subjectData.studyTime.minute}분" else "" + ""
+        text_study_progress.text = "${ if (studyTime.hour != 0) "${studyTime.hour}시간 " else "" }${ if (studyTime.minute != 0) "${studyTime.minute}분" else "" }  /  " + if (subjectData.studyTime.hour != 0) "${subjectData.studyTime.hour}시간 " else "" + if (subjectData.studyTime.minute != 0) "${subjectData.studyTime.minute}분" else ""
         text_study_progress_message.text = if (studyTime.isBefore(subjectData.studyTime.localTime)) "목표까지 ${ if (h != 0) "${h}시간 " else "" }${ if (m != 0) "${m}분 " else "" }남았습니다. 파이팅!" else "목표를 달성한 당신, 대단해요!"
 
 
