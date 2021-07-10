@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "189237758722",
+    "project_id": "naptect-today",
+    "storage_bucket": "naptect-today.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189237758722:android:b4c4fa7173afaf88abd01b",
+        "android_client_info": {
+          "package_name": "com.naptech.today"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189237758722-ekj654ke78qjh9tggsnc0cfr106blm4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naptech.today",
+            "certificate_hash": "a76ce58ed317aa5c735eb1bb81c2594ed1f76a7f"
+          }
+        },
+        {
+          "client_id": "189237758722-utpp0s8sdqr11pof85l7c8rqrm4ja2h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9OcbjtkAsL7LT2meY0kSJJR6ElqVlZgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189237758722-utpp0s8sdqr11pof85l7c8rqrm4ja2h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

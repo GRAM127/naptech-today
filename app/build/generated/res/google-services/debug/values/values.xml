@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">189237758722-utpp0s8sdqr11pof85l7c8rqrm4ja2h2.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">189237758722</string>
+    <string name="google_api_key" translatable="false">AIzaSyD9OcbjtkAsL7LT2meY0kSJJR6ElqVlZgs</string>
+    <string name="google_app_id" translatable="false">1:189237758722:android:b4c4fa7173afaf88abd01b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD9OcbjtkAsL7LT2meY0kSJJR6ElqVlZgs</string>
+    <string name="google_storage_bucket" translatable="false">naptect-today.appspot.com</string>
+    <string name="project_id" translatable="false">naptect-today</string>
+</resources>

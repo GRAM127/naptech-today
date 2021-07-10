@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".study.StudyActivity">
+
+    <TextView
+        android:id="@+id/text_study_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Subject"
+        android:textColor="@color/text_black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_semi_bold"
+        android:gravity="center"
+        android:text="Hour"
+        android:textColor="@color/text_black"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout7"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout7"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_semi_bold"
+        android:gravity="center"
+        android:text="Minute"
+        android:textColor="@color/text_black"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout6"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout6"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout6" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4">
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/picker_study_hour1"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_centerInParent="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/picker_study_hour2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:np_dividerColor="@color/lightBlue"
+            app:np_dividerLength="32dp"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/text_black"
+            app:np_selectedTextSize="26sp"
+            app:np_selectedTypeface="@font/comfortaa_bold"
+            app:np_textColor="@color/transparent"
+            app:np_textSize="12sp"
+            app:np_typeface="@font/comfortaa_light"
+            app:np_value="0"
+            app:np_width="64dp" />
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/picker_study_hour2"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_centerInParent="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/picker_study_hour1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:np_dividerColor="@color/lightBlue"
+            app:np_dividerLength="32dp"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/text_black"
+            app:np_selectedTextSize="26sp"
+            app:np_selectedTypeface="@font/comfortaa_bold"
+            app:np_textColor="@color/transparent"
+            app:np_textSize="12sp"
+            app:np_typeface="@font/comfortaa_light"
+            app:np_value="0"
+            app:np_width="64dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout7"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout7">
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/picker_study_minute1"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_centerInParent="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/picker_study_minute2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:np_dividerColor="@color/lightBlue"
+            app:np_dividerLength="32dp"
+            app:np_max="5"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/text_black"
+            app:np_selectedTextSize="26sp"
+            app:np_selectedTypeface="@font/comfortaa_bold"
+            app:np_textColor="@color/transparent"
+            app:np_textSize="12sp"
+            app:np_typeface="@font/comfortaa_light"
+            app:np_value="0"
+            app:np_width="64dp" />
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/picker_study_minute2"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_centerInParent="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/picker_study_minute1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:np_dividerColor="@color/lightBlue"
+            app:np_dividerLength="32dp"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/text_black"
+            app:np_selectedTextSize="26sp"
+            app:np_selectedTypeface="@font/comfortaa_bold"
+            app:np_textColor="@color/transparent"
+            app:np_textSize="12sp"
+            app:np_typeface="@font/comfortaa_light"
+            app:np_value="0"
+            app:np_width="64dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_popup_complete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:cardBackgroundColor="@color/layout_main_button"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/text_study_cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="12dp">
+
+            <ImageView
+                android:id="@+id/image_people_pin"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_complete"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView8"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/lightGreen" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:padding="8dp"
+                android:text="Complete"
+                android:textColor="@color/text_white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/image_people_pin"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/text_study_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_light"
+        android:gravity="center"
+        android:padding="24dp"
+        android:text="Cancel"
+        android:textColor="@color/text_black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

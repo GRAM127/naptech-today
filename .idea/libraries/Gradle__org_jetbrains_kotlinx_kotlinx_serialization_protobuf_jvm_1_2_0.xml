@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-protobuf-jvm:1.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-protobuf-jvm/1.2.0/41576ef0b14886a5ac6ab9cc2283304c6171ed61/kotlinx-serialization-protobuf-jvm-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-protobuf-jvm/1.2.0/3f62cdb101590ca4f408c3755fbd854f483ebe3d/kotlinx-serialization-protobuf-jvm-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-protobuf-jvm/1.2.0/366312f2498e1ad1afa20480eb8afe4072b7d342/kotlinx-serialization-protobuf-jvm-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

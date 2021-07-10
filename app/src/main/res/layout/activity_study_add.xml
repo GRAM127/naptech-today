@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".study.StudyAddActivity">
+
+<!--    TODO("imag && color 선택하도록")-->
+
+    <TextView
+        android:id="@+id/text_popup_edit4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
+        android:padding="16dp"
+        android:text="Delect"
+        android:textColor="@color/text_red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_popup_edit5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
+        android:padding="8dp"
+        android:text="Change"
+        android:textColor="@color/text_blue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout8"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout8"
+        app:srcCompat="@drawable/ic_google" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2">
+
+        <TextView
+            android:id="@+id/button_main_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_semi_bold"
+            android:gravity="center"
+            android:text="Hour"
+            android:textColor="@color/text_black"
+            app:layout_constraintEnd_toEndOf="@+id/picker_add_hour"
+            app:layout_constraintStart_toStartOf="@+id/picker_add_hour"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/picker_add_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_main_schedule"
+            app:np_dividerColor="@color/lightBlue"
+            app:np_dividerLength="32dp"
+            app:np_max="23"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/text_black"
+            app:np_selectedTextSize="20sp"
+            app:np_selectedTypeface="@font/comfortaa_bold"
+            app:np_textColor="@color/text_black_light"
+            app:np_textSize="14sp"
+            app:np_typeface="@font/comfortaa_light"
+            app:np_value="3"
+            app:np_width="64dp" />
+
+        <TextView
+            android:id="@+id/text_main_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_semi_bold"
+            android:gravity="center"
+            android:text="Minute"
+            android:textColor="@color/text_black"
+            app:layout_constraintEnd_toEndOf="@+id/picker_add_minute"
+            app:layout_constraintStart_toEndOf="@+id/picker_add_hour"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/picker_add_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/picker_add_hour"
+            app:layout_constraintTop_toBottomOf="@+id/text_main_button"
+            app:np_dividerColor="@color/lightBlue"
+            app:np_dividerLength="32dp"
+            app:np_max="59"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/text_black"
+            app:np_selectedTextSize="20sp"
+            app:np_selectedTypeface="@font/comfortaa_bold"
+            app:np_textColor="@color/text_black_light"
+            app:np_textSize="14sp"
+            app:np_typeface="@font/comfortaa_light"
+            app:np_value="3"
+            app:np_width="64dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_add_label"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout8"
+        app:startIconDrawable="@drawable/ic_label_add"
+        app:startIconTint="@color/lightGreen">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_add_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_regular"
+            android:hint="Label"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/text_black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/rectangle_16"
+        android:backgroundTint="@color/layout_main_button"
+        android:elevation="8dp"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:tint="@color/text_white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_plus"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:gravity="center"
+            android:text="저장"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

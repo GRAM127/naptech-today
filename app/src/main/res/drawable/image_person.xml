@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="32dp"
+        android:height="32dp">
+        <shape>
+            <solid
+                android:color="@color/white" >
+            </solid>
+
+            <corners
+                android:topLeftRadius="16dp"
+                android:topRightRadius="16dp"
+                android:bottomLeftRadius="16dp"
+                android:bottomRightRadius="16dp"/>
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@drawable/ic_person"
+        android:width="24dp"
+        android:height="24dp"
+        android:gravity="center"/>
+</layer-list>

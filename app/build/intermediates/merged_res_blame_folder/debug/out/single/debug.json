@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_light.ttf.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\font\\comfortaa_light.ttf"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_8.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\rectangle_8.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_account.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_tag.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\layout_tag.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_subject_1.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_subject_1.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_schedule.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\item_schedule.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_apple.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_apple.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_select.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\bottom_select.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dotted_line_horizontal.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\dotted_line_horizontal.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_backward.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_arrow_backward.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_study_popup.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\activity_study_popup.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_16.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\rectangle_16.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_account_edit.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\activity_account_edit.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_not_complete.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_not_complete.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_semi_bold.ttf.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\font\\comfortaa_semi_bold.ttf"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_person.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\image_person.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_subject_4.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_subject_4.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_label_add.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_label_add.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_main_today.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\layout_main_today.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_schedule_add.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\activity_schedule_add.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_bold.ttf.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\font\\comfortaa_bold.ttf"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_date_indicator.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\layout_date_indicator.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_study2.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\item_study2.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_schedule.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\fragment_schedule.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_subject_0.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_subject_0.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_schedule_popup.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\activity_schedule_popup.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_complete.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_complete.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_date.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\item_date.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_study_add.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\activity_study_add.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_medium.ttf.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\font\\comfortaa_medium.ttf"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_subject_3.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_subject_3.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_login.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\bottom_login.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_inprogress.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_inprogress.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_plus.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_down.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_arrow_down.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_regular.ttf.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\font\\comfortaa_regular.ttf"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_4_border.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\rectangle_4_border.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_study.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\item_study.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_study.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\activity_study.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_google.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_google.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_forward.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_subject_2.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\ic_subject_2.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_schedule_2.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\item_schedule_2.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_study.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\fragment_study.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dotted_line_vertical.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\dotted_line_vertical.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_date_indicator.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\layout\\layout_date_indicator.xml"
+    },
+    {
+        "merged": "D:\\NapTech\\Today\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_4.xml.flat",
+        "source": "D:\\NapTech\\Today\\app\\src\\main\\res\\drawable\\rectangle_4.xml"
+    }
+]
