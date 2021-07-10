@@ -38,7 +38,7 @@ enum class ScheduleStatus
 open class NaptechActivity: AppCompatActivity
 open class NaptectFragment: Fragment
 ```
-###### firebase
+###### -> firebase
 ```kotlin
 // firebase 로그인 관리 클래스
 class FirebaseLogin
@@ -52,7 +52,7 @@ class FirebaseDatabaseMap: MutableMap<String, Any?>
 class CalendarAdapter: RecyclerView.Adapter<CalendarAdapter.CalendarHolder>
   inner class CalendarHolder: RecyclerView.ViewHolder
 ```
-###### schedule
+###### -> schedule
 ```kotlin
 // 일정 recyclerview adapter
 class ScheduleAdapter: RecyclerView.Adapter<ScheduleAdapter.ScheduleHolder>
@@ -64,7 +64,7 @@ class ScheduleFragment : NaptectFragment
 // 일정 ViewModel -> 컴포넌트 생명주기에서 data 보호
 class ScheduleViewModel: ViewModel
 ```
-###### study
+###### -> study
 ```kotlin
 // 과목 recyclerview adapter
 class StudyAdapter: RecyclerView.Adapter<ScheduleAdapter.ScheduleHolder>
