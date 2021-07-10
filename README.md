@@ -28,11 +28,36 @@ val firebaseLogin:  FirebaseLogin // Firebase 로그인 관리를 위한 객체�
 #### 기능 설명
 |화면|설명|
 |:---:|---|
-|<img src="https://user-images.githubusercontent.com/78714391/125157744-96292900-e1a7-11eb-8d27-1af22ab6721c.jpg" width="70%" height="70%"></img><br/>|일정의 상세 정보를 볼 수 있습니다.<br>일정 메모를 볼 수 있으며 상태 `None` `InProgress` `Completed` `NotCompleted` 설정을 할 수 있습니다.<br>우측 상단의 수정 버튼을 눌러 `ScheduleAddActivity` 수정이 가능합니다.|
+|<img src="https://user-images.githubusercontent.com/78714391/125157744-96292900-e1a7-11eb-8d27-1af22ab6721c.jpg" width="60%" height="60%"></img><br/>|일정의 상세 정보를 볼 수 있습니다.<br>일정 메모를 볼 수 있으며 상태 `None` `InProgress` `Completed` `NotCompleted` 설정을 할 수 있습니다.<br>우측 상단의 수정 버튼을 눌러 `ScheduleAddActivity` 수정이 가능합니다.|
 
 ## ScheduleAddActivity
 #### 기능 설명
 |화면|설명|
 |:---:|---|
-|<img src="https://user-images.githubusercontent.com/78714391/125158118-d38eb600-e1a9-11eb-8552-8230493c8f87.jpg" width="70%" height="70%"></img><br/>|일정을 추가하거나 수정합니다.<br>날짜와 일정 이름, 메모, 색을 선택하고 저장 버튼을 누르면 일정이 저장됩니다.<br>일정 수정 시에는 우측 상단의 삭제 버튼을 눌러 삭제할 수 있습니다.|
+|<img src="https://user-images.githubusercontent.com/78714391/125158497-95df5c80-e1ac-11eb-8d48-938bb4386ed1.png" width="52%" height="52%"></img><br/>|일정을 추가하거나 수정합니다.<br>날짜와 일정 이름, 메모, 색을 선택하고 저장 버튼을 누르면 일정이 저장됩니다.<br>일정 수정 시에는 우측 상단의 삭제 버튼을 눌러 삭제할 수 있습니다.|
+
+## StudyPopupActivity
+#### 기능 설명
+|화면|설명|
+|:---:|---|
+|<img src="https://user-images.githubusercontent.com/78714391/125158517-b0b1d100-e1ac-11eb-9d17-53d08c6aef63.png" width="52%" height="52%"></img><br/>|과목의 공부량을 일별로 확인할 수 있습니다. 또한 목표량까지 남은 시간은 확인할 수도 있습니다.<br><br>하단 학습 시작 버튼을 눌러 `StudyActivity` 기록을 시작할 수 있습니다.<br>우측 상단 수정 버튼을 눌러 `StudyAddActivity` 과목 정보를 수정할 수 있습니다.|
+
+## StudyAddActivity
+#### 기능 설명
+|화면|설명|
+|:---:|---|
+|<img src="https://user-images.githubusercontent.com/78714391/125158848-98db4c80-e1ae-11eb-87d1-39e7c391de9a.jpg" width="60%" height="60%"></img><br/>|과목을 추가하거나 수정할 수 있습니다.<br>수정의 경우는 우측 상단의 삭제 버튼을 눌러 삭제할 수 있습니다.|
+|<img src="https://user-images.githubusercontent.com/78714391/125158895-e2c43280-e1ae-11eb-8e4b-56e4d9f10e42.png" width="60%" height="60%"></img><br/>|아이콘 수정 버튼을 누르면 아이콘과 색을 선택할 수 있는 하단 다이얼로그가 나타납니다.|
+
+## StudyActivity
+#### 기능 설명
+|화면|설명|
+|:---:|---|
+|<img src="https://user-images.githubusercontent.com/78714391/125159016-b3fa8c00-e1af-11eb-8973-3327db77bd11.png" width="60%" height="60%"></img><br/>|공부 모드 화면입니다. 공부를 시작한지 몇 시간이 되었는지 알 수 있습니다.<br>하단 완료 버튼으로 시간 저장을, 그 아래 취소 버튼으로 저장하지 않고 취소를 할 수 있습니다.<br><br>공부 모드에서는 이 화면만 보여집니다.|
+
+## AccountActivity
+#### 기능 설명
+|화면|설명|
+|:---:|---|
+|<img src="https://user-images.githubusercontent.com/78714391/125159127-69c5da80-e1b0-11eb-8e15-ad706b6912e5.png" width="70%" height="70%"></img><br/>|계정 정보와 공부 시간을 모두 모아서 볼 수 있는 화면입니다. 익명 로그인 상태에서는 소셜 로그인 버튼이 중앙에, 소셜 로그인 상테에서는 로그아웃 버튼이 우측 상단에 표시됩니다.|
 
