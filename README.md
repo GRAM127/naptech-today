@@ -2,6 +2,8 @@
 > 네, 저도 알고 있습니다. 코드가 많이 난장판입니다...<br>
 > 교내 대회 출품작입니다.
 
+[다운로드](https://drive.google.com/file/d/1hoR5MbzUyyaFSRsuqtptpsCEi6Bayyp4/view?usp=sharing)
+
 일정과 공부를 같이 볼 수 있도록 만든 앱, **Today** 입니다.<br>
 최대한 간단하게 일정을 관리할 수 있도록 만드는 것을 목표로 하였습니다.<br>
 <br>
