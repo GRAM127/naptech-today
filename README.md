@@ -178,7 +178,7 @@ override fun onPause()                              // activity 생명주기 -> 
 #### 기능 설명
 |화면|설명|
 |:---:|---|
-|<img src="https://user-images.githubusercontent.com/78714391/125159127-69c5da80-e1b0-11eb-8e15-ad706b6912e5.png" width="70%" height="70%"></img><br/>|계정 정보와 공부 시간을 모두 모아서 볼 수 있는 화면입니다. 익명 로그인 상태에서는 소셜 로그인 버튼이 중앙에, 소셜 로그인 상테에서는 로그아웃 버튼이 우측 상단에 표시됩니다.|
+|<img src="https://user-images.githubusercontent.com/78714391/125397753-55205700-e3e9-11eb-99c2-47ae47d7df4c.png" width="70%" height="70%"></img><br/>|계정 정보와 공부 시간을 모두 모아서 볼 수 있는 화면입니다. 익명 로그인 상태에서는 소셜 로그인 버튼이 중앙에, 소셜 로그인 상테에서는 로그아웃 버튼이 우측 상단에 표시됩니다.|
 ```kotlin
 val firebaseLogin:  FirebaseLogin   // Firebase 로그인 관리를 위한 객체
 
